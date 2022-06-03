@@ -1,0 +1,115 @@
+/*----------------- [Reset] ---------------------*/
+/*-----------------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, header, section, footer, aside, nav, main, article, figure {
+	margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus 														{ outline:0; }
+body 														{ line-height:1; }
+strong 														{ font-weight:bold; }
+/* tables still need 'cellspacing="0"' in the markup */
+table 														{ border-collapse: separate; border-spacing: 0; }
+caption, th, td 											{ text-align: left; font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after 		{ content: ""; }
+blockquote, q 												{ quotes: "" ""; }
+header, section, footer, aside, nav, main, article, figure	{ display: block; } 
+
+.clearfix:after												{ clear: both; content: " "; display: block; height: 0; visibility:hidden; }
+.clearfix													{ display:inline-block; }
+/* Hides from IE-mac \*/
+* html .clearfix											{ height: 1%; }
+.clearfix 													{ display: block; }
+
+html, body {
+	height:100%;
+}
+body {
+	color:#000000;
+}
+.wrapper {
+	min-height:100%;
+	background:#d5e8dc url('bg-l.jpg') no-repeat 0 0/100%;
+	padding:0 5%;
+	max-width:1440px;
+	margin:0 auto;
+}
+.intro {
+	width:100%;
+	max-width:408px;
+	padding:450px 0 180px;
+	margin:0 auto;
+}
+h1 {
+	font:bold 45px/100% Arial, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:-1px;
+	margin-bottom:27px;
+}
+p {
+	font:normal 18px/27px Arial, sans-serif;
+}
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { 
+	
+}
+
+@media only screen and (min-width:381px) {
+	
+}
+
+
+@media only screen and (min-width:481px) {		
+}
+
+@media only screen and (min-width:521px) {		
+	
+}
+@media only screen and (min-width:521px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width:521px) and (min-resolution: 144dpi) {	
+	
+}
+@media only screen and (min-width:641px) {
+	.intro {
+		margin:0;
+	}
+	
+}
+@media only screen and (min-width:641px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width:641px) and (min-resolution: 144dpi) {	
+	
+
+}
+@media only screen and (max-width:640px), only screen and (orientation:portrait) {
+
+}
+@media only screen and (min-width:741px) {
+	
+}
+@media only screen and (min-width:801px) {
+	
+}
+@media only screen and (min-width:801px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width:801px) and (min-resolution: 144dpi) {
+	
+}
+@media only screen and (min-width:901px) {
+	
+}
+
+@media only screen and (min-width:1025px) {
+	.intro {
+		margin-left:17.13%;
+	}
+	
+}
+@media only screen and (min-width:1025px) and (orientation:landscape) {
+
+}
+@media only screen and (min-width:1025px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width:1025px) and (min-resolution: 144dpi) {
+	
+}
+@media only screen and (min-width:1281px) {
+
+}
+
+
+
