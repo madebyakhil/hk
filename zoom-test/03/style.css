@@ -1,0 +1,51 @@
+/*----------------- [Reset] ---------------------*/
+/*-----------------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, header, section, footer, aside, nav, main, article, figure {
+	margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus 														{ outline:0; }
+body 														{ line-height:1; }
+strong 														{ font-weight:bold; }
+/* tables still need 'cellspacing="0"' in the markup */
+table 														{ border-collapse: separate; border-spacing: 0; }
+caption, th, td 											{ text-align: left; font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after 		{ content: ""; }
+blockquote, q 												{ quotes: "" ""; }
+header, section, footer, aside, nav, main, article, figure	{ display: block; } 
+
+.clearfix:after												{ clear: both; content: " "; display: block; height: 0; visibility:hidden; }
+.clearfix													{ display:inline-block; }
+/* Hides from IE-mac \*/
+* html .clearfix											{ height: 1%; }
+.clearfix 													{ display: block; }
+
+html, body {
+	height:100%;
+}
+body {
+	color:#000000;
+}
+.infographic-container {
+	max-width:1440px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.infographic-image {
+	width:100%;
+	height:auto;
+	--x:50%;
+	--y:50%;
+	display:block;
+	cursor:zoom-in;
+	transform:scale(1.0);
+	transition:transform 0.35s cubic-bezier(0.45, 0.2, 0.55, 0.75);
+	transform-origin:var(--x) var(--y);
+}
+.infographic-image.zoom {
+	transform:scale(4.0);
+	cursor:zoom-out;
+}
+
+
+
