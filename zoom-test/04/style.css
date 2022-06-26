@@ -25,10 +25,11 @@ html, body {
 }
 body {
 	color:#000000;
+	padding:180px 0;
 }
 .infographic-container {
 	max-width:1440px;
-	margin:180px auto;
+	margin:0 auto;
 	/*overflow:scroll;*/
 	overflow:hidden;
 }
